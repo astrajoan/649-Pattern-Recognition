@@ -20,7 +20,7 @@ Viola-Jones算法的实现大概分为4部分
 1灰度积分图
 
 图像灰度积分图
-![image](http://github.com/astrajoan/649-Pattern-Recgonition/raw/master/img/)
+![image](http://github.com/astrajoan/649-Pattern-Recgonition/raw/master/img/WeChat Image_20191123183428.jpg)
 对于一幅灰度的图像，积分图像中的任意一点(x,y)的值是指从图像的左上角到这个点的所构成的矩形区域内所有的点的灰度值之和。
 积分图的作用
 积分图可以快速找到灰度图像中某个矩形范围内的灰度值的和，在做Harr-like特征是非常重要，如下图所示。
